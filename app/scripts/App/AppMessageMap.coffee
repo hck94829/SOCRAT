@@ -69,10 +69,10 @@ module.exports = class AppMessageMap
     ,
       msgFrom: 'mymodule:getData'
       scopeFrom: ['socrat_analysis_mymodule']
-      msgTo: 'database:getData'
+      msgTo: 'get table'
       scopeTo: ['socrat_analysis_database']
     ,
-      msgFrom: 'database:receiveData'
+      msgFrom: 'take table'
       scopeFrom: ['socrat_analysis_database']
       msgTo: 'mymodule:receiveData'
       scopeTo: ['socrat_analysis_mymodule']
