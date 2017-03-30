@@ -11,3 +11,4 @@ module.exports = class MyModuleSidebarCtrl extends BaseCtrl
 
     @dataService.getData().then (obj) =>
       @msgService.broadcast 'mymodule:dataFromDb', obj
+      console.log("dsfnjsdsfjnsfsdfdsddd")
